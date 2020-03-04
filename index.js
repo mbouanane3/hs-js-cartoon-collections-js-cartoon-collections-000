@@ -32,5 +32,5 @@ function longPlaneteerCalls(calls) {
  }
  
  function wordsWiyhB(words){
-   
+   words.
  }
