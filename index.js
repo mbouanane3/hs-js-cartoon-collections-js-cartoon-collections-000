@@ -1,8 +1,9 @@
 function dwarfRollCall(dwarves) { 
 var string = '';
   dwarves.map(function(name, index ) {
-    string += (index+1+'.'+' '+name+' ');
-    });
+    if(index<dwarves.length/2){
+      string += (index+1+'.'+' '+name+' ');
+    }});
     return string;
 }
 
@@ -32,8 +33,8 @@ function longPlaneteerCalls(calls) {
  }
  
  function wordsWiyhB(words){
-   words.filter(function(names){
-     names.startsWith('b')
-     return 
+  return words.filter(function(names){
+     return names.startsWith('b')
+     
    })
  }
