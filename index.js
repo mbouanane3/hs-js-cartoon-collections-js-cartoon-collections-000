@@ -34,6 +34,6 @@ function longPlaneteerCalls(calls) {
  function wordsWiyhB(words){
    words.map(function(names){
      names.startsWith('b')
-     
+     return names
    })
  }
