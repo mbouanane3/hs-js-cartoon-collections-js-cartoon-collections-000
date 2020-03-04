@@ -30,3 +30,7 @@ function longPlaneteerCalls(calls) {
  		} 	}
  	return "no cheese!";
  }
+ 
+ function wordsWiyhB(words){
+   
+ }
